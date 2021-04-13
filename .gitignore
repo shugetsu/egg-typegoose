@@ -1,0 +1,12 @@
+logs/
+npm-debug.log
+node_modules/
+coverage/
+.idea/
+.history/
+run/
+.DS_Store
+*.swp
+
+app.js
+package-lock.json
