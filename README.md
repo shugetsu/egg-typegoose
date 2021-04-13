@@ -86,6 +86,7 @@ export default class UserController extends Controller {
     const result = await ctx.service.user.createUser(user);
     ctx.body = result;
   }
+
   /**
    * 根据 email 获取用户
    */
@@ -145,6 +146,7 @@ export class User extends BaseModel {
    */
   @prop({ required: true, unique: true })
   email!: string;
+
   /**
    * 昵称
    */
@@ -173,6 +175,7 @@ export default class UserService extends Service {
     const result = await ctx.model.User.create(user);
     return result;
   }
+  
   /**
    * 根据 email 获取用户
    * @param email 邮箱
