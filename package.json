@@ -1,6 +1,6 @@
 {
   "name": "@akizuki/egg-typegoose",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "typegoose plugin for Egg.js.",
   "eggPlugin": {
     "name": "typegoose"
