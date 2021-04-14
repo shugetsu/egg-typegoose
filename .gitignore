@@ -9,4 +9,3 @@ run/
 *.swp
 
 app.js
-package-lock.json

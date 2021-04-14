@@ -1,6 +1,6 @@
 {
-  "name": "egg-typegoose",
-  "version": "0.0.1",
+  "name": "@akizuki/egg-typegoose",
+  "version": "1.0.0",
   "description": "typegoose plugin for Egg.js.",
   "eggPlugin": {
     "name": "typegoose"
@@ -51,12 +51,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-typegoose.git"
+    "url": "git+https://github.com/shugetsu/egg-typegoose.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-typegoose#readme",
-  "author": "FangQiuLiang",
+  "author": "shugetsu",
   "license": "MIT"
 }
